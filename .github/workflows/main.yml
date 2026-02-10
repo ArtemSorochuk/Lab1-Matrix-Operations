@@ -16,7 +16,7 @@ jobs:
         distribution: 'temurin'
     
     - name: Compile Java Code
-      run: javac main.java
+      run: javac *.java
 
     - name: Run Program
       run: java Main
